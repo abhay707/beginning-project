@@ -1,0 +1,33 @@
+mydict = dict(goa = 20353,delhi = 30212,chhaturpur = 70343,ujain = 298321,patna = 2309)
+print(mydict)
+#print(type(mydict))
+dict1 = {1:"one",2:"two",3:"three",4:"four",5:"five"}
+print(dict1)
+print(d2.get("computer"))
+#changing value in dict function
+d2 = dict(switch = 300,computer = 2000,playstation = 4000,xbox = 2000,nentindo = 600 )
+print("Price of the switch:",d2['switch'])
+d2['switch']= int(input("What is goint to be the price of switch:"))
+print("New switch price is:",d2["switch"])'''
+'''#convert the function into string
+print(int("0011",2))
+print(int("0xF",16))
+print(int("0o17",8))
+#convert the function into float
+print(float(30))
+print(float(-40))
+print(float(-40.48))
+print(float(9))
+print(float("32"))
+print(float(" -24.5\n"))
+print(float("Inf"))
+print(float('nan'))
+print(float("CodeTantra"))
+print(float(24.5))
+#convert any character into unicode
+print(ord("A"))
+print(ord("a"))
+print(ord("#"))
+print(ord(" "))
+
+
