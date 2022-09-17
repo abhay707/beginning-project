@@ -1,0 +1,37 @@
+print(hex(45))
+print(oct(45))
+print(ord("4"))
+#they show error while giving floating values
+print(hex(9.9))
+print(oct(9.9))
+print(ord(9.9))
+#convert int into complex
+a = int(input("Enter the real part: "))
+b = int(input("Enter the imaginary part: "))
+print(complex(a,b))
+#concatinatiion of string
+a = 10
+b = "Hello"
+print(str(a)+b)
+#length of any integer
+c = str(a)
+print("Number of digits in the given integer:"+str(len(c)))
+#eval concatination
+a = eval("4+3.5")
+print(a)
+#converting unicode into character
+print(chr(65))
+a = "python"
+#convert function into set
+print(set(a))
+#convert function into list
+print(list(a))
+#convert function into tuple
+print(tuple(a))
+a = 10
+b = 10
+print(id(a),id(b)
+print(a is b)
+
+
+
